@@ -120,8 +120,8 @@
 -define:ENABLE_INPUT_SYSTEM
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Dev/Ai/5-waves-to-die2/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"C:/Dev/Ai/5-waves-to-die2/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Dev/5-waves-to-die/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"C:/Dev/5-waves-to-die/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"C:/Programs/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Programs/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Programs/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -368,7 +368,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/_Dev/AI_Dmitry/Scripts/Enemy/ZombieController.cs"
-"Assets/_Dev/Player/Script/PlayerManagment.cs"
+"Assets/_Dev/AI_Dmitry/Scripts/Enemy/ZombieStats.cs"
 "Assets/_Dev/Player/Script/UI/CharacterStats.cs"
 "Assets/_Dev/Player/Script/UI/PlayerHUD.cs"
 "Assets/_Dev/Player/Script/UI/PlayerStats.cs"
