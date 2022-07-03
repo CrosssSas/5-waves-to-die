@@ -23,6 +23,12 @@ public class ZombieController : MonoBehaviour
     {
         agent.SetDestination(target.position);
         anim.SetFloat("Speed", 1f, 0.3f, Time.deltaTime);
+
+        float distanceToTarget = Vector3.Distance(target.position, transform.position);
+        if(distanceToTarget <= 2)
+        {
+            anim.SetFloat("Speed", 0f);
+        }
     }
 
     private void GetReferences()
