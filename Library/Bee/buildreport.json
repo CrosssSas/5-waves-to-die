@@ -1,0 +1,19 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 22208157135.5,"dur": 199430.1, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 22208187740.4,"dur": 123542.4, "ph":"X", "name": "Preprocess Player"},
+{}
+
+],
+"meta_datetime": "07/12/2022 16:26:05",
+"meta_command_line": "C:/Programs/Unity/Editor/Unity.exe -projectpath C:\\Dev\\temp\\zombie\\5-waves-to-die -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-lolol -hubSessionId f4a32750-01cd-11ed-a293-bf879d401b6f -accessToken LPTJsnzeuYSDg-SCgYiClg_G3RcVmIt5OV4yGz9tS2o009f",
+"meta_command_line_args": "C:/Programs/Unity/Editor/Unity.exe -projectpath C:\\Dev\\temp\\zombie\\5-waves-to-die -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-lolol -hubSessionId f4a32750-01cd-11ed-a293-bf879d401b6f -accessToken LPTJsnzeuYSDg-SCgYiClg_G3RcVmIt5OV4yGz9tS2o009f",
+"meta_user_name": "lolol",
+"meta_os_version": "Microsoft Windows NT 10.0.19044.0",
+"meta_cpu_count": "8"
+}

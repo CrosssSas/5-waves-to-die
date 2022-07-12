@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Dev/AI_Dmitry/Enemy_test.unity
+    guid: 83ee41237d12d2248a96f7f54b7f5305
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 80eb7746a09c62946993607fd71a83bd, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 82af01561f1ebb04a839b97c4af8ab48, type: 2}
