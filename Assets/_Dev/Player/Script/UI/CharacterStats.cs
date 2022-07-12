@@ -24,6 +24,11 @@ public class CharacterStats : MonoBehaviour
         if (currentHealth >= maxHealth) { currentHealth = maxHealth; }
     }
 
+    public bool IsDead()
+    {
+        return isDead;
+    }
+
     public void SetHealthTo(int amount)
     {
         currentHealth = amount;
